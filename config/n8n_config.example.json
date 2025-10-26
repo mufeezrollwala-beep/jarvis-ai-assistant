@@ -1,0 +1,22 @@
+{
+  "base_url": "http://localhost:5678",
+  "api_key": "your-n8n-api-key-here",
+  "auth_token": null,
+  "notes": {
+    "setup": [
+      "1. Install n8n: npm install n8n -g",
+      "2. Start n8n: n8n start",
+      "3. Access n8n at http://localhost:5678",
+      "4. Go to Settings > API > Generate API Key",
+      "5. Copy the API key and paste it in 'api_key' field above",
+      "6. Rename this file to n8n_config.json"
+    ],
+    "alternative_auth": [
+      "Instead of api_key, you can use auth_token for JWT authentication",
+      "Set either api_key OR auth_token, not both"
+    ],
+    "docker_setup": [
+      "docker run -it --rm --name n8n -p 5678:5678 n8nio/n8n"
+    ]
+  }
+}
