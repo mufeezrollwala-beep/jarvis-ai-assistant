@@ -1,0 +1,29 @@
+{
+  "home_automation": {
+    "enabled": true,
+    "use_mock": true,
+    "providers": {
+      "home_assistant": {
+        "enabled": true,
+        "url": "http://localhost:8123",
+        "token": "YOUR_HOME_ASSISTANT_TOKEN",
+        "websocket_url": "ws://localhost:8123/api/websocket"
+      },
+      "hue": {
+        "enabled": true,
+        "bridge_ip": "192.168.1.100",
+        "username": "YOUR_HUE_USERNAME",
+        "api_key": "YOUR_HUE_API_KEY"
+      },
+      "tplink": {
+        "enabled": true,
+        "username": "YOUR_TPLINK_USERNAME",
+        "password": "YOUR_TPLINK_PASSWORD"
+      }
+    }
+  },
+  "security": {
+    "encrypt_credentials": true,
+    "config_dir": "~/.jarvis"
+  }
+}
