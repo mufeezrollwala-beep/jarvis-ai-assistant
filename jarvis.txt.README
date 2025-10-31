@@ -1,0 +1,4 @@
+# Note: jarvis.txt is the original source file. The refactored version is now:
+# - jarvis_core.py: Core logic (shared)
+# - jarvis.py: Voice interface
+# - text_api.py: Text API interface
